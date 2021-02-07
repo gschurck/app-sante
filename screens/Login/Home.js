@@ -1,17 +1,17 @@
 import React,  { Component } from 'react'
 import { View, Text, Button} from 'react-native'
 /*
-export default function Home() {
-    return (
-        <View>
-            <Text>ok</Text>
-                    <Button
-          title="Go to Blog"
-          onPress={() => this.props.navigation.navigate('Login')}
-        />
-        </View>
-    )
-}
+const Home = (props) => {
+  return (
+    <View>
+      <Text>ok</Text>
+      <Button
+        title="Go to Blog"
+        onPress={() => this.props.navigation.navigate('Login')}
+      />
+    </View>
+  );
+};
 */
 
 class Home extends Component {
