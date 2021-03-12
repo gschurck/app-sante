@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
 import {Image, Text, View, StyleSheet} from 'react-native';
+import {NavigationContainer} from "@react-navigation/native";
+import Onboard from "../Onboarding/Onboard";
 
-//import styles from "./Style";
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import {createMaterialTopTabNavigator} from "@react-navigation/material-top-tabs";
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 50,
+
+        flex : 1,
+        justifyContent:"center",
+        alignItems : "center",
     },
     tinyLogo: {
         width: 50,
@@ -17,15 +23,14 @@ const styles = StyleSheet.create({
     },
 });
 
+const Tab = createMaterialTopTabNavigator();
+
+
 class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
-            <View style={styles.container} >
-                <Text>Hello , {this.props.text}</Text>
-                <Image style={styles.logo} source={require('../../assets/images/doctor.png')} />
+            <View style={styles.container}>
+                <Text>Hello</Text>
             </View>
         );
     }
