@@ -38,6 +38,8 @@ class Navigation extends Component {
                     tabBarPosition="bottom"
                 >
                     <Tab.Screen name={ "Home"} component={Home}/>
+                    <Tab.Screen name={"Health"} component={Home} />
+                    <Tab.Screen name={"Settings"} component={Home} />
                 </Tab.Navigator>
             </NavigationContainer>
 
