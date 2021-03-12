@@ -3,11 +3,11 @@ import {Text, View, Image} from 'react-native';
 import AppIntroSlider from "react-native-app-intro-slider";
 import slides from "../../assets/slides";
 import style from "./Style";
-
 import {ImageBackground} from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 import variables from '../../src/variables/variables'
 import Navigation from "../navigation/Navigation";
+import {ConnexionTabs} from "../navigation/ConnexionStack";
 
 class Onboard extends Component {
     constructor(props) {
@@ -58,7 +58,7 @@ class Onboard extends Component {
 
     render() {
         if (this.state.showRealApp) {
-            return <Navigation/>
+            return <ConnexionTabs/>
         } else {
             return (
                 <AppIntroSlider

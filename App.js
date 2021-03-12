@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import Onboard from "./screens/Onboarding/Onboard";
 
 
