@@ -3,10 +3,11 @@ import {View, Text, Button} from 'react-native'
 import Home from '../screens/Login/Home';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
+import {createMaterialTopTabNavigator} from "@react-navigation/material-top-tabs";
 
 
 const Stack = createStackNavigator();
-
+const Tab = createMaterialTopTabNavigator();
 return (
     <NavigationContainer>
         <Tab.Navigator screenOptions={({route}) => ({

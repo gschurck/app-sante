@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
     image: {
         width: '100%',
-        height: '50%',
+        height: '60%',
         resizeMode: 'cover',
     },
     title: {
@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
         zIndex : 5,
         textAlign:"center",
     },
+
     buttonCircle: {
         width: 40,
         height: 40,

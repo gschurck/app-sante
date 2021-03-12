@@ -1,3 +1,5 @@
+
+
 export default [
     {
         id: '1',
@@ -9,7 +11,7 @@ export default [
         id:'2',
         title: 'pills',
         description: 'aefjajofeabfehjbfejakf ',
-        image: require('./images/pills.png'),
+        image:require("./images/pills.png") ,
     },
     {
         id:'3',
