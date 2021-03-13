@@ -4,6 +4,7 @@ import styles from "./Style";
 import ConnexionButtons from "../../components/buttons/connexion/ConnexionButtons";
 
 import {Image} from "react-native";
+import Title from "../../assets/images/Title";
 
 class Connexion extends Component {
 
@@ -14,26 +15,30 @@ class Connexion extends Component {
 
     render() {
         return (
-            <>
+            <View style={styles.container}>
                 <View style={styles.imageContainer}>
-                    <Image source={require('../../assets/images/meditation.png')}  style={styles.image} />
+                    <Image style={styles.image} source={require('../../assets/images/doctor.png')}/>
+                    <Title/>
                 </View>
                 <View style={styles.buttons}>
                     <ConnexionButtons
-                        title={"Crée un compte"}
-                        nav={this.navigation}
+                        title={'Crée un compte'}
                         type={'SignUp'}
-                        goTo={"SignUp"}
+                        nav={this.navigation}
+                        goTo={'SignUp'}
                     />
                     <ConnexionButtons
-                        title={"Se connecter"}
+                        title={'Se connecter'}
+                        type={'SignIn'}
                         nav={this.navigation}
-                        goTo={"SignIn"}
+                        goTo={'SignIn'}
                     />
+
                 </View>
-            </>
+
+            </View>
         )
-            ;
+
     }
 }
 

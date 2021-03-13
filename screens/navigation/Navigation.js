@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-import {NavigationContainer} from "@react-navigation/native";
+import {DefaultTheme, NavigationContainer} from "@react-navigation/native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {createMaterialTopTabNavigator} from "@react-navigation/material-top-tabs";
 import Home from "../Home/Home";
 
 const Tab = createMaterialTopTabNavigator();
+
+
 
 export default class Navigation extends Component {
     render() {
