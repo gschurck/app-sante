@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
 import {Text, View ,Button ,Pressable} from 'react-native';
 import styles from "./Style";
-
 import variables from "../../../src/variables/variables";
-
-
-
 
 
 
@@ -13,8 +9,8 @@ class ConnexionButtons extends Component {
     constructor(props) {
         super(props);
         this.navigation = props.nav;
-        this.backgroundColor = this.props.type === 'SignUp' ? 'white' : variables.mainAppGreenColor;
-        this.color = this.props.type ==='SignUp'? 'black' : 'white';
+        this.backgroundColor = this.props.type ==='SignUp' ? variables.mainAppGreenColor : 'white' ;
+        this.color = this.props.type ==='SignUp'? 'white' : variables.mainAppGreenColor ;
     }
     render() {
 
