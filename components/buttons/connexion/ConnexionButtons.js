@@ -9,8 +9,8 @@ class ConnexionButtons extends Component {
     constructor(props) {
         super(props);
         this.navigation = props.nav;
-        this.backgroundColor = this.props.type ==='SignUp' ?'white' : variables.mainAppColor;
-        this.color = this.props.type ==='SignUp'? 'black' : 'white';
+        this.backgroundColor = this.props.type ==='SignUp' ? variables.mainAppColor : 'white' ;
+        this.color = this.props.type ==='SignUp'? 'white' : variables.mainAppColor ;
     }
     render() {
         return (

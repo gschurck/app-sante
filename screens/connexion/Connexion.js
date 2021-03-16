@@ -22,7 +22,7 @@ class Connexion extends Component {
                 </View>
                 <View style={styles.buttons}>
                     <ConnexionButtons
-                        title={'Crée un compte'}
+                        title={'Créer un compte'}
                         type={'SignUp'}
                         nav={this.navigation}
                         goTo={'SignUp'}
