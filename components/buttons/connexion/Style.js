@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         borderRadius:999,
         height:50,
         borderWidth : 1,
-        borderColor : variables.mainAppColor,
+        borderColor : variables.mainAppGreenColor,
         backgroundColor:"black",
     },
     text :{

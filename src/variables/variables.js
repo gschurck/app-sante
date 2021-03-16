@@ -1,3 +1,3 @@
 export default {
-    mainAppColor :"#00BFA6",
+    mainAppGreenColor :"#00BFA6",
 }

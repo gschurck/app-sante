@@ -1,17 +1,16 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
+import Title from "../../assets/images/Title";
 import styles from "./Style";
 
-class SignIn extends Component {
+class HeaderDesign extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>
-
-                </Text>
+               <Title style={styles.title}/>
             </View>
         );
     }
 }
 
-export default SignIn;
+export default HeaderDesign;

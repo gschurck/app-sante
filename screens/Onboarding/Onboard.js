@@ -6,7 +6,6 @@ import style from "./Style";
 import {ImageBackground} from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 import variables from '../../src/variables/variables'
-import Navigation from "../navigation/Navigation";
 import {ConnexionTabs} from "../navigation/ConnexionStack";
 
 class Onboard extends Component {
@@ -67,7 +66,7 @@ class Onboard extends Component {
                     onDone={this._onDone}
                     renderNextButton={this._renderNextButton}
                     renderDoneButton={this._renderDoneButton}
-                    activeDotStyle={{backgroundColor: variables.mainAppColor}}
+                    activeDotStyle={{backgroundColor: variables.mainAppGreenColor}}
                 />
             );
         }

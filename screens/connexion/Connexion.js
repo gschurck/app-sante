@@ -35,7 +35,6 @@ class Connexion extends Component {
                     />
 
                 </View>
-
             </View>
         )
 

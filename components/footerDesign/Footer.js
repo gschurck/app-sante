@@ -1,17 +1,14 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 import styles from "./Style";
-
-class SignIn extends Component {
+class Footer extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>
 
-                </Text>
             </View>
         );
     }
 }
 
-export default SignIn;
+export default Footer;
