@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 import styles from "./Style";
-import {Dimensions} from "react-native-web";
+
 import HeaderDesign from "../../../components/headerDesign/HeaderDesign";
-import Footer from "../../../components/footerDesign/Footer";
-
-const {width} = Dimensions.get("window");
-
+import ConnexionButtons from "../../../components/buttons/connexion/ConnexionButtons";
 
 class SignUp extends Component {
     render() {
@@ -14,12 +11,19 @@ class SignUp extends Component {
             <View style={styles.container}>
                 <HeaderDesign/>
                 <View style={styles.content}>
+                    <Text style={styles.title}>Welcom</Text>
+                    <ConnexionButtons
+                        title={'go Home'}
+                        nav={this.props.navigation}
+                        goTo={'Navigation'}
+                    />
 
                 </View>
-
             </View>
         );
     }
+
+
 }
 
 export default SignUp;

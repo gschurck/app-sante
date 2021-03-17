@@ -3,7 +3,7 @@ import {DefaultTheme, NavigationContainer} from "@react-navigation/native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {createMaterialTopTabNavigator} from "@react-navigation/material-top-tabs";
 import Home from "../Home/Home";
-
+import SignUp from "../connexion/signup/SignUp";
 const Tab = createMaterialTopTabNavigator();
 
 
@@ -37,6 +37,7 @@ export default class Navigation extends Component {
                 }}
                 tabBarPosition="bottom"
             >
+                
                 <Tab.Screen name={"Home"} component={Home}/>
             </Tab.Navigator>
         )

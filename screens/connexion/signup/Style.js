@@ -17,6 +17,10 @@ const styles = StyleSheet.create({
         zIndex:1,
         height: '100%',
 
+    },
+    title : {
+        fontSize:22,
+        textAlign:'center',
     }
 });
 
